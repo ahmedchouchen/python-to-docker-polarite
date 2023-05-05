@@ -1,19 +1,19 @@
 def basic_signe(a):
 
-  if (a.isnumeric()):
-    a=float(a)
+    if (a.isnumeric()):
+      a=float(a)
     
-    if a>0 :
-      result = "positive number "
-    elif a == 0:
-      result = "null  number"
-    else :
-      result = "negative number"
+      if a>0 :
+       result = "positive number "
+      elif a == 0:
+       result = "null  number"
+      else :
+       result = "negative number"
    
    
     
-   else:
+    else:
      result = "Please enter a valid number "
     
 
-  return result
+    return result
