@@ -2,7 +2,7 @@ def basic_signe(a):
 
 
     if (a.isnumeric()):
-      a=float(a)
+      a=int(a)
     
       if a>0 :
        result = "positive number "
