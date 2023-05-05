@@ -2,7 +2,7 @@ version: "3"
 services:
   monapp:
     build: .
-    image: Test-de-Polarité
+    image: calculatrice2023
     depends_on:
       - redis
     ports:
