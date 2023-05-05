@@ -7,7 +7,7 @@ def basic_signe(a):
       result = "positive number "
     elif a == 0:
       result = "null  number"
-    else a < 0:
+    else :
       result = "negative number"
    
    
