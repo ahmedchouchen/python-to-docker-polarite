@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 # importing function for calculations
-from basic_signe_function import basic_signe
+from signe_function import basic_signe
 
 # Define calculator
 @app.route('/')
@@ -18,9 +18,9 @@ def predict():
     a = request.form['a']
     
 
-    result = basic_signe(a)
+    Resultat = basic_signe(a)
 
-    return render_template('index.html', prediction_text=str(result))
+    return render_template('index.html', prediction_text=str(Resultat))
 
 
 if __name__ == "__main__":
