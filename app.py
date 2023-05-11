@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 # importing function for calculations
-from signe_function import basic_signe
+from signe_function import signe
 
 # Define calculator
 @app.route('/')
